@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang = "ja">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <title>Caffe Site</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<style>
+#app{
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+p{
+    font-weight:bold;
+    font-size:17px;
+}
+
+.container{
+    width:400px;
+    height:200px;
+    background:#37495796;
+    display:block;
+    margin:auto;
+
+}
+
+.container > .title p{
+    position:relative;
+    top:15px;
+    left:12px;
+    color:#FFFFFF;
+    text-align:left;
+}
+.container > .list_p p{
+    position:relative;
+    top:5px;
+    left:20px;
+    font-size: 12px;
+    color:#FFFFFF;
+    text-align:left;
+}
+</style>
+
+<body>
+  <div id="app">
+        <img src=".\img\logoYogioh.png" width="280px" height="72px"><br>
+        <p>遊戯王シミュレーター</p>
+        <p>～開発途中～</p>
+        <img src=".\img\playimage.png" width="350px" height="170px"><br><br>
+        <a href="game.html">
+            <img src=".\img\gameStart.png">
+        </a>
+        <P>スマートフォンの場合、横向きが推奨です</P><br>
+        <div class ="container">
+            <div class ="title">
+                <p>注意点</p>
+            </div>
+            <div class ="list_p"> 
+                <p>・CPUは生贄を無視して召喚してきます</p>
+                <p>・こちら側は生贄を考慮して召喚する必要があります</p>
+                <p>・モンスター効果は開発途中で発動しません</p>
+                <p>・魔法・トラップカードは開発途中で実装されておりません</p>
+                <p>・BGMは右上のアイコンからオン/オフの切り替えが可能です</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
